@@ -37,6 +37,11 @@ And here are the three nodes designed by me:
 
 - `NodeC.py`: is the service node that prints the distance of the robot from the goal position and the average speed, these values are retrieved from the topic _/robot_info_ published as a custom ROS message from NodeA, the speed at which these informations are printed is set as a parameter in the launch file
 
+Documentation
+---------------------------
+
+See the nodes documentation [here](https://matteocappe.github.io/ResearchTrack1_Assignment2/index.html)
+
 Running the simulation
 ---------------------------
 
