@@ -31,7 +31,7 @@ And here are the three nodes designed by me:
 
 - `NodeA.py`: is the action client node that allows users to input the desired coordinates and to cancel the previously set goal, it also publishes the current coordinates of the robot by retrieving them via a ROS message from the topic _/odom_ and by publishing the robot position and velocity on the topic _/robot_info_ via a custom ROS message, as described in the following flowchart:
 
-![Flowchart of NodeA](assignment2_flowchart.png)
+
 
 - `NodeB.py`: is the service node that prints the counters relative to the number of goals reached and cancelled
 
