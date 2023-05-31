@@ -81,6 +81,20 @@ Now you are finally set to run the project by running the launch file:
 roslaunch assignment_2_2022 assignment1.launch 
 ```
 
+You can also run the simulation via jupyter notebook to observe the plots by running the launch file:
+
+```
+roslaunch assignment_2_2022 assignment2.launch 
+```
+
+Start the jupyter node via the command:
+
+```
+jupyter notebook --allow-root
+```
+
+To be able to test the program, open a web browser, go to the displayed URL and open the jupyter node inside the directory `jupyter_notebook`, finally run all the cell and you're set to go!
+
 Once all these steps are done, five new windows will open:
 
 - **Rviz**: a 3D visualizer for the ROS framework, which logs every information related to the robot's sensors
