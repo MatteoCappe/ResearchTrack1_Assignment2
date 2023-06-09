@@ -113,6 +113,6 @@ Possible improvements
 
 Some possibile improvements are:
 
-- Setting a token in the gaebo simulation, where the goal is supposed to be, to have a better visualization of it
+- Setting a token in the gazebo simulation, where the goal is supposed to be, to have a better visualization of it
  
-- Make the scripts as general as possible by getting the dimension of the arena at the start of the simulation and using the acquired informations to set the limitatins imposed on NodeA, so that we can have a more general script and be able to use the same code for arenas different from the one observed
+- Make the scripts as general as possible by getting the dimension of the arena at the start of the simulation and using the acquired informations to set the limitations imposed on NodeA, so that we can have a more general script and be able to use the same code for arenas different from the one observed
